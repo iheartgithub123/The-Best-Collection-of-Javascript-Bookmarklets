@@ -1,0 +1,1 @@
+javascript:setInterval(()=>document.body.style.background='linear-gradient(to right,hsl('+Math.random()*360+',100%,50%),hsl('+Math.random()*360+',100%,50%))',500)
