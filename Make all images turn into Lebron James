@@ -1,0 +1,1 @@
+javascript:(function(){    var lebronImage = new Image();    lebronImage.src = "https://i.ytimg.com/vi/V6YgyHleb0Y/mqdefault.jpg";    var images = document.getElementsByTagName("img");    for (var i = 0; i < images.length; i++) {        images[i].src = lebronImage.src;    }})();
